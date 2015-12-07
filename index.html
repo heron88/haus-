@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 
 <head>
     <title>Studium</title>
 
-    <meta charset="ISO-8859-1" />
+    <meta charset="UTF-8" />
     <meta name="description" lang="en" content="" />
     <meta name="author" content="" />
     <meta name="keywords" content="" />
@@ -12,30 +12,32 @@
 
 
 
-<link rel="stylesheet" type="text/css"  href="seite1.css" />
+<link rel="stylesheet" type="text/css"  href="bootstrap.css" />
 
 </head>
 
 <body>
 
-<table align="center" >
+<table  >
     <tr>
         <td>
         <div id="root_site">
             <div id="head_main_container">
                 <div class="header_background">
-               
+
                </div>
             </div>
-        <table   width="100%">
-           <div id="navi_main_container" >
+            <div id="navi_main_container" >
+             <div class="navi_container" id="navi_menue">
+        <table>
+
                <tr>
 
                 <td>
-                <div class="navi_container" >
-                 <ul id="navi_menue" >
 
 
+
+                      <div>
                       <a  class="Startseite"  href="index.html" target="_self"> startseite </a>
 
                         </div>
@@ -43,8 +45,8 @@
 
 
                   <td>
-                 <div class="navi_container">
-                 <ul id="navi_menue" >
+                 <div>
+
                           <a class="faecher" href="faecher.html" target="_self">  F&auml;cher  </a>
 
                         </div>
@@ -53,8 +55,8 @@
 
 
                   <td>
-                   <div class="navi_container">
-                 <ul id="navi_menue" >
+                   <div>
+
                           <a class="Kontakt" href="kontakt.html" target="_self">  Kontakt   </a>
 
                         </div>
@@ -65,8 +67,8 @@
 
 
                  <td>
-                  <div class="navi_container">
-                 <ul id="navi_menue" >
+                  <div >
+
                           <a class="sonstiges" href="sonstiges.html" target="_self">  Sonstiges  </a>
 
                         </div>
@@ -74,31 +76,26 @@
 
 
 
-                        </ul>
 
-
-                 </ul>
+                   </tr> </table>        </div>
                  </div>
 
 
-          </tr> </table>
-            <div id="contant_main_container"> 
+
+            <div id="contant_main_container">
             <div class="contant_table">
             <table class="news_box" >
                          <tr>
 
                             <td class="headline">Informatik Studium</td>
                          </tr>
-                         <tr>
-                           
-                         </tr>
 
 
               </table>
 
-            </div>        
+            </div>
               <div class="contant_left">
-                <table class="contant_left_table"  width="100%"> 
+                <table class="contant_left_table">
                    <tr>
                         <td>
                         <table class="news_box"  >
@@ -106,7 +103,7 @@
 
                             <td class="headline">Unser Studium ...</td>
                          </tr>
-                        
+
                             <tr>
                             <td> <p id="headline_zusatz">...auf einen Blick</p> </td>
                          </tr>
@@ -114,97 +111,101 @@
 
 
                          <tr>
-                            <td id="schriftart3" colspan="2">
-                               
-                                <ul id="navi_menue2">
-                                 <li >Erstes Semster
-                         <li  style="list-style-type:none;"><img   src="images/icon.png"  width="25" height="25"/>
-                            <ul class="dropdown_menue">
-                               <li><a href="faecher.html#AnkerKurzlagerung">Diskrete Mathematik</a></li>
-                                 <li><a href=".html#AnkerLangzeitlagerung">Grundlagen der Informatik</a></li>
-                                   <li><a href=".html#AnkerZwischenlagerung">Naturwissenschaftliche und technische Grundlagen</a></li>
-                                    <li><a href=".html#AnkerContainer">Objektorientierte Programmierung</a></li>
-                                    <li><a href=".html#AnkerContainer">Rechnernetze und ihre Anwendung </a></li>
-                              </ul>
-                               </li>       
-                                   </td>
-                              </tr> 
-                              <br />
-                              <td id="schriftart3" colspan="2">
+                            <td class="schriftart3">
 
-                                <ul id="navi_menue2">
-                                 <li  >Zweites Semster  
-                         <li  style="list-style-type:none;"><img   src="images/icon.png"  width="25" height="25"/>
+                                <ul class="navi_menue2">
+                                 <li >Erstes Semster  </li>
+                         <li  style="list-style-type:none;"><img   src="images/icon.png"  width="25" height="25" alt="icon"/>
                             <ul class="dropdown_menue">
-                               <li><a href=".html#AnkerStueckgutauslieferung">Algorithmen und Datenstrukturen</a></li>
-                                 <li><a href=".html#AnkerNahbereichsauslieferung">DV-orientierte Betriebswirtschaftslehre</a></li>
-                                    <li><a href=".html#AnkerBotendienste">Internetbasierte Systeme</a></li>
-                                         <li><a href=".html#AnkerExpressauslieferung">Lineare Algebra</a></li>
-                                            <li><a href=".html#AnkerExpressauslieferung">Programmierung interaktiver Systeme</a></li>
-                                            <li><a href=".html#AnkerExpressauslieferung">Recht für Informatiker</a></li>
-                              </ul>
-                               </li>
+                               <li><a href="faecher.html#dmanker">Diskrete Mathematik</a></li>
+                                 <li><a href="faecher.html#gianker">Grundlagen der Informatik</a></li>
+                                   <li><a href="faecher.html#ntganker">Naturwissenschaftliche und technische Grundlagen</a></li>
+                                    <li><a href="faecher.html#oopanker">Objektorientierte Programmierung</a></li>
+                                    <li><a href="faecher.html#raanker">Rechnernetze und ihre Anwendung </a></li>
+                              </ul> </li>
+                                      </ul>
                                    </td>
                               </tr>
-                               <br />
-                             
-                              
-                                 
-                             
+
+                              <tr>
+                              <td class="schriftart3" >
+
+                                <ul class="navi_menue2">
+                                 <li  >Zweites Semster   </li>
+                         <li  style="list-style-type:none;"><img   src="images/icon.png"  width="25" height="25"  alt="icon"/>
+                            <ul class="dropdown_menue">
+                               <li><a href="faecher.html#audanker">Algorithmen und Datenstrukturen</a></li>
+                                 <li><a href="faecher.html#bwlanker">DV-orientierte Betriebswirtschaftslehre</a></li>
+                                    <li><a href="faecher.html#isanker">Internetbasierte Systeme</a></li>
+                                         <li><a href="faecher.html#laanker">Lineare Algebra</a></li>
+                                            <li><a href="faecher.html#pisanker">Programmierung interaktiver Systeme</a></li>
+                                            <li><a href="faecher.html#rianker">Recht f&uuml;r Informatiker</a></li>
+                              </ul>
+                               </li>    </ul>
+                                   </td>
+                                   </tr>
+
+
+
+
+
+
                        </table>
-                       <br />
+                        </td>
+                                   </tr>
+
                  </table>
                  </div>
-               
-            
-         
-            
-            
-            
-       
+
+
+
+
+
+
+
             <div id="footer_main_container">
             <div id="footer_container_setup">
-               <table class="footer_contant" align="center" >
+               <table class="footer_contant">
 
                      <tr>
-                         <td align="left"><a href="impressum.html">Impressum</a></td>
-                          <td align="right"><a href=""></a></td>
+                         <td ><a href="impressum.html">Impressum</a></td>
+                          <td><a href=""></a></td>
                          <td rowspan="5" > </td>
-                              <td align="right"></td>
-                         <td align="right"></td>
+                              <td ></td>
+                         <td></td>
 
                      </tr>
                      <tr>
-                        <td align="left"><a href=""></a></td>
-                         <td align="right"><a href="impressum.html"></a></td>
-                             <td align="left"></td>
-                        <td align="right">Andre Klenk</td>
+                        <td><a href=""></a></td>
+                         <td ><a href="impressum.html"></a></td>
+                             <td></td>
+                        <td >Andre Klenk</td>
                      </tr>
 
                       <tr>
-                         <td align="left"><a href=""></a></td>
-                         <td align="right"><a href=""></a></td>
-                         <td align="left"></td>
-                        <td align="right">Fiktive Str. 00</td>
+                         <td ><a href=""></a></td>
+                         <td ><a href=""></a></td>
+                         <td></td>
+                        <td >Patschesm&uuml;hle 1</td>
                      </tr>
                       <tr>
-                        <td align="right"><a href="#"></a></td>
-                         <td align="right"></td>
-                          <td align="left"></td>
-                        <td align="right">00000 Fiktive Stadt</td>
+                        <td><a href="#"></a></td>
+                         <td></td>
+                          <td ></td>
+                        <td >56459 Gem&uuml;nden</td>
                      </tr>
                      <tr>
-                        <td align="right"><a href="#"></a></td>
-                         <td align="right"></td>
-                          <td align="left"></td>
-                        <td align="right">Tel: Fiktive Nummer</td>
+                        <td ><a href="#"></a></td>
+                         <td ></td>
+                          <td ></td>
+                        <td>Email: Heron88@web.de</td>
                      </tr>
                </table>
 
             </div>
             </div>
         </div>
-
+          </div>
         </td>
     </tr>
 
